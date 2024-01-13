@@ -19,7 +19,7 @@ public class ToStringDemo {
     }
 
     @Override
-    public String toString() {
+    public String toString() {                //case of toString method  define
         return "ToStringDemo{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
@@ -27,7 +27,7 @@ public class ToStringDemo {
     }
 
     public static void main(String[] args) {
-        ToStringDemo s1 = new ToStringDemo("Jatin", 22);
+        ToStringDemo s1 = new ToStringDemo("Jatin", 22); //case of toString method isn't define
         System.out.println(s1);
     }
 /*  In case of toString method isn't define
