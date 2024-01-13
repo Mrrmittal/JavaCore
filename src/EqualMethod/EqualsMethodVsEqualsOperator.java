@@ -51,7 +51,7 @@ public class EqualsMethodVsEqualsOperator {
             System.out.println("True");
         }
         else {
-            System.out.println("false"); // False because two difference
+            System.out.println("false"); // False because two different Object.
         }
     }
 
