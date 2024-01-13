@@ -1,4 +1,4 @@
-package src.EqualMethod;
+package src.ObjectClass.EqualMethod;
 
 public class EqualNotUsingStringClass {
     public static void main(String[] args) {

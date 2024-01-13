@@ -1,4 +1,4 @@
-package src.EqualMethod;
+package src.ObjectClass.EqualMethod;
 
 class EqualsMethodVsEqualsOperatorDifference{
     /*
