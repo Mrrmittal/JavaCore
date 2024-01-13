@@ -20,7 +20,7 @@ public class HashCodeImplementation{
      */
 
         System.out.println(e1.hashCode());
-        System.out.println(e2.hashCode()); //If we do not define the
+        System.out.println(e2.hashCode());
 
     }
 }
@@ -35,10 +35,10 @@ class Employee{
         this.designation = designation;
     }
 
-//    @Override
-//    public int hashCode(){
-//        return (name + designation).hashCode();
-//    }
+    @Override
+    public int hashCode(){
+        return (name + designation).hashCode();
+    }
 
 }
 
