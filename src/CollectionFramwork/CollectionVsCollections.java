@@ -13,6 +13,9 @@ public class CollectionVsCollections {
                                         Collections.replace();
                                         Collections.copy();
                                         Collections.shuffle();
+
+      Main Common Difference : Collection Interface have some declaration method like add(), remove() etc
+                                While Collections class have some static utility method.
      */
 
 }
