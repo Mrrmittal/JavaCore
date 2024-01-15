@@ -17,6 +17,7 @@ public class QueueDefinition {
      4. Indexing is not allowed in Queue.
      5. Ordering is allowed in Queue Interface.
      6. Remove Element from the front of their head and Add element from the end.
+     7. Mixture of data allowed in Queue.
 
      #Time Complexity
      Follow O(1) Time Complexity while Insertion, Deletion, Accessing of an element in Queue.
