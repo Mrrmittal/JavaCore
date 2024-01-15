@@ -8,7 +8,7 @@ public class RemoveDuplication {
 
     //function to remove elements from arraylist
     public void removeDuplicate(ArrayList arrayList){
-//        We can only remove element from a arraylist to convert into set(because set collection of unique elements)
+//        We can only remove element from an arraylist to convert into set(because set collection of unique elements)
         Set set = new LinkedHashSet(arrayList);
         System.out.println(set);
     }
