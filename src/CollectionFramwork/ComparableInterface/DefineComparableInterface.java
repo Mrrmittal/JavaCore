@@ -16,13 +16,14 @@ public class DefineComparableInterface {
 
        #Properties of Comparable Interface
 
-       # Only used in ArrayList Class.
+       # Only used in List Interface.
        1. Help to Compare objects of a class.
        2. compareTo() method.
        3. Can compare only using single parameter.
        4. if thisObject < anotherObject returns -ve value
        5. if thisObject = anotherObject returns Zero value
        6. if thisObject > anotherObject returns +ve value
+       7. Comparable Interface present in java.lang package.
      */
     public static void main(String[] args) {
 

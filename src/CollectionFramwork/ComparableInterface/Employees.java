@@ -5,7 +5,7 @@ public class Employees implements Comparable<Employees> {
     String name;
     String department;
 
-    Employees(int empId, String name, String department){
+    public Employees(int empId, String name, String department){
         this.empId = empId;
         this.name = name;
         this.department = department;
@@ -27,5 +27,17 @@ public class Employees implements Comparable<Employees> {
                 ", name='" + name + '\'' +
                 ", department='" + department + '\'' +
                 '}';
+
+
+        }
+
+        public String getName(){
+        return name;
+    }
+    public String getDepartment() {
+        return department;
+    }
+    public int getEmpId() {
+        return empId;
     }
 }
