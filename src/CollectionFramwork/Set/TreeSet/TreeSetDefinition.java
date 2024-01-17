@@ -18,5 +18,7 @@ public class TreeSetDefinition {
      #Basic Syntax:
         TreeSet ts = new TreeSet();
 
+     #Time Complexity : O(log(n))
+
      */
 }

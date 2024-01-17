@@ -21,7 +21,5 @@ public class EnumAndEnumSet {
 
         EnumSet enumSet = EnumSet.allOf(status.class);
         System.out.println(enumSet);
-
-
     }
 }
