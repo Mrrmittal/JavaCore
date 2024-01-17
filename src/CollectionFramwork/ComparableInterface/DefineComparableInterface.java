@@ -1,5 +1,7 @@
 package src.CollectionFramwork.ComparableInterface;
 
+import java.util.*;
+
 public class DefineComparableInterface {
     /*
     Que: What is Comparable Interface in Java? and their properties and need.
@@ -14,13 +16,33 @@ public class DefineComparableInterface {
 
        #Properties of Comparable Interface
 
+       # Only used in ArrayList Class.
        1. Help to Compare objects of a class.
-       2. compareTo() method
+       2. compareTo() method.
        3. Can compare only using single parameter.
        4. if thisObject < anotherObject returns -ve value
        5. if thisObject = anotherObject returns Zero value
        6. if thisObject > anotherObject returns +ve value
-
-
      */
+    public static void main(String[] args) {
+
+        List<Employees> employees = new ArrayList<>();
+        employees.add(new Employees(04,"Rahul", "IT"));
+        employees.add(new Employees(05, "Vishal", "HR"));
+        employees.add(new Employees(11, "Sunil", "IT"));
+        employees.add(new Employees(21,"Mohan", "Finance"));
+        employees.add(new Employees(03, "Reena", "HR"));
+
+//       print employee set
+        System.out.println(employees);
+
+        System.out.println("*********************************************************88");
+
+//        print in sorting by ID (compareTo() define in Employee Class)
+        Collections.sort(employees);
+        Iterator itr = employees.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+    }
 }
