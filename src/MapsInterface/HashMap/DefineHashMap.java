@@ -1,7 +1,7 @@
 package src.MapsInterface.HashMap;
 
 public class DefineHashMap {
-    /*
+    /**
     Que: What is HashMap ? Properties and time Complexity? How to create? Capacity and Load factor
     Sol: HashMap is a class that's implements Maps Interface in Java. Useful while need to represent object in keys and
          value Pairs. Insertion order is not to be followed by the HashMap.
@@ -23,4 +23,6 @@ public class DefineHashMap {
      load Factor :- 0.75
      rehashing:- 2^4, 2^5 .......
      */
+    public static void main(String[] args) {
+    }
 }
