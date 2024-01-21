@@ -1,4 +1,4 @@
-package src.BasicConcepts.Genrics;
+package src.Genrics;
 
 
 import java.util.ArrayList;

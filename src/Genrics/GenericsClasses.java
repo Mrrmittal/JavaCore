@@ -1,6 +1,4 @@
-package src.BasicConcepts.Genrics;
-
-import javax.swing.*;
+package src.Genrics;
 
 public class GenericsClasses {
 
