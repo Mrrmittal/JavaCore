@@ -1,5 +1,7 @@
 package src.Genrics;
 
+import java.util.List;
+
 public class GenericsMethods {
     /*
     Que: Define Generics Methods and How to create Generics Classes and why?
@@ -21,6 +23,7 @@ public class GenericsMethods {
     public static  <T> T display(T obj){        // "T" here is trying to support Generic Type
         return obj;                           // Return Object
     }
+
 
     public static void main(String[] args) {
         System.out.println("Name is :" +display("Jatin"));
