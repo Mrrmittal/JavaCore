@@ -12,12 +12,14 @@ class Thread2 implements Runnable{
     public void run() {
         System.out.println("Task 2 Complete : " +Thread.currentThread().getName());
     }
+
 }
 class Thread3 implements Runnable{
     @Override
     public void run() {
         System.out.println("Task 3 Complete : " +Thread.currentThread().getName());
     }
+
 }
 
 public class MultipleTastMultipleThreads {
