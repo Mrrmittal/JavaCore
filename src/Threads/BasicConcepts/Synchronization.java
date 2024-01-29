@@ -37,18 +37,17 @@ public class Synchronization implements Runnable {
         thread.start();
         thread2.start();
     }
-
-
-
 }
 
 class BookingApplication{
         int total_tickets = 10;
         String name;
+        int tickets;
         public void bookTickets(int tickets, String name){
-            if(tickets < total_tickets){
+            if(total_tickets >= tickets  ){
                 System.out.println(name +" Seats Confirmed!! ThankYou for showing Interest");
-                int left_tickets = total_tickets - tickets;
+                int left_tickets = (total_tickets - tickets);
+                total_tickets = left_tickets;
                 System.out.println("Only "+left_tickets +" tickets are left, Hurry Up!!" );
             }else {
                 System.out.println("Sorry!! Only "+total_tickets +" are available.");

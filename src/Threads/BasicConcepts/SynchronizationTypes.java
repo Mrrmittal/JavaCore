@@ -8,6 +8,7 @@ Types of Synchronization ?
  2. Threads Synchronization :
         a) Mutual Exclusive: can be achieved by 3 ways : Synchronization method, Synchronization block and
                                                          static Synchronization
-        b) Cooperation : Can be achieved by 3 ways : by Object class method wait(), notifyAll(), notify()
+        b) Cooperation : Useful for InterThread communication Can be achieved by
+                         3 ways : by Object class method wait(), notifyAll(), notify()
  */
 }
