@@ -17,4 +17,5 @@ Sol: In the market there are thousand of Driver Software available in the Market
      Architecture: JDBC(Java Application) ---> Type-3 Driver ---> Middleware ---> Database
 
  # Type 4 Driver : Highly recommended to use Because of Single layer and direct connect to Java Application to Database.
+                   Highly Fast and Responsive and does not require and extra component.
      Architecture: JDBC(Java Application) ---> Type-4 Driver ---> Database
