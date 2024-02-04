@@ -1,0 +1,9 @@
+Que: What is the DriverManager ? What are the basic work and methods of Driver Manager?
+Sol: DriverManager is a class of that is the Key Component of the JDBC Architecture API. DriverManager class is present
+     in the java.mysql package. DriverManager class is totally responsible to control the Diver Software and to
+     established connectivity between the Java Application and the Data Bases.
+
+  #DriverManagers Class basic methods:
+  1. public static synchronized void registerDriver(Driver driver);   To register a driver
+  2. public static synchronized void deregisterDriver(Driver driver); To deregistered a driver
+  3. public static Connection getConnection(String url,String userName,String password) throws SQLException;
