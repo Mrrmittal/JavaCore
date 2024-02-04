@@ -1,0 +1,20 @@
+Que: How many types of Drivers Software available?
+Sol: In the market there are thousand of Driver Software available in the Market. but all of them are divide into the
+     four type. So, there are four types of Drivers available in the market.
+    #Types of Driver:
+    1. Type - 1 ( JDBC ODBC) or Bridge Driver
+    2. Type - 2 (Native Driver) or Partly Java Driver
+    3. Type - 3 (All Java Net Protocol Driver) or Middleware Driver
+    4. Type - 4 (Pure Java Driver) or Thin Driver
+
+ # Type 1 Driver : Not recommended to use. Because of two layer of Connection And slow Process and Database dependent.
+    Architecture : JDBC(Java Application) ---> Type-1 Driver ---> ODBC ---> Database
+
+ # Type 2 Driver : Also not recommended to use because of slow process and multi layer with native libraries.
+     Architecture: JDBC(Java Application) ---> Type-2 Driver ---> Native Libraries ---> Database
+
+ # Type 3 Driver : Highly recommended to use Because of Data base independent. and fast process.
+     Architecture: JDBC(Java Application) ---> Type-3 Driver ---> Middleware ---> Database
+
+ # Type 4 Driver : Highly recommended to use Because of Single layer and direct connect to Java Application to Database.
+     Architecture: JDBC(Java Application) ---> Type-4 Driver ---> Database
