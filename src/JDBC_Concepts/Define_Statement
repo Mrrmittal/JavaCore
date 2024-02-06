@@ -1,0 +1,20 @@
+Que: Types of Statement are present JDBC? How to Create?
+Sol: Statement is an Interface in Java that's are present into the same java.sql.statement package. Its basically helps
+     to create the SQL statement in java its provides methods to execute query with the Database.
+        # Types of Statement
+        1. Statement.
+        2. PreparedStatement
+        3. CallableStatement
+
+Que: Relation Between all type of Statement?
+Sol: Inheritance Relation between all of them.
+     Statement -- implements by -- PreparedStatement -- implements by -- CallableStatement
+
+Que : How to Create?
+Sol : Create Statement:
+        Statement st = con.createStatement();
+      methods of implementation :
+      1. st.executeUpdate("insert") , st.executeUpdate("delete")
+      2. st.executeQuery("select");
+
+

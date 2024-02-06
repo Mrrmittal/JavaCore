@@ -1,0 +1,8 @@
+Que: What are various standard steps to develop JDBC Application?
+Sol: Import the packages:
+     Register the drivers:
+     Establish a connection:
+     Create a statement:
+     Execute the query:
+     Retrieve results:
+     Close the connections:

@@ -1,0 +1,29 @@
+Que: Difference among all three Interfaces?
+Sol: 1. Statement Interface :
+            create statement : Statement st = con.createStatement("No parameter required");
+            implement : st.executeUpdate(String SQL); st.executeUpdate(String SQL);
+
+      #Advantage    : We need to create an object once and does not need to create object again and again.
+      #Disadvantage : The basic disadvantage is every time query will compile on every time building an Application.
+                      even in 1cr+ time.
+                      So, Performance Will be decrease.
+
+
+
+     2. PreparedStatement Interface :
+                 create statement : PreparedStatement pst = con.PreparedStatement(String SQL);
+                 implement : pst.executeQuery(); pst.executeUpdate();
+
+           #Advantage   : The basic Advantage is there is no need every time to compile query on every time for
+                          building an Application even in 1cr+ time.
+                          So, Performance Will be increase.
+
+           #Disdvantage : We need to create dif dif object and does need to create object again and again for every
+                          task like insert, delete, update, select.
+
+
+     3. CallableStatement : CallableStatement are useful to call the stored procedures in the database. In simple words
+                            The Callable Statement interface provided by JDBC API helps in executing stored procedures.
+
+                       #create :  CallableStatement cs = con.prepareCall("{call Procedure_name(?, ?}");
+                       #method : cs.execute();
