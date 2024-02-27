@@ -16,10 +16,11 @@ class Definition{
 public class WrapperClassesDemo {
     public static void main(String[] args) {
         int num =   22;
-        Integer num2 = new Integer(num);
+        Integer a = 25;
+        Integer num2 = new Integer(num); // primitive data value of num wrap into the Integers here.
 
-        System.out.println(num2);
-        System.out.println(num2.equals(num));
+        System.out.println(num2); // Out will be 22
+        System.out.println(num2.equals(num)); // Output will be true.
     }
 
 }
