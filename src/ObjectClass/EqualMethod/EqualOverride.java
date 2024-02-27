@@ -13,6 +13,12 @@ class EqualMethodDefinition{
 }
 
 public class EqualOverride {
+    int num;
+
+    public EqualOverride(int num){
+        this.num = num;
+    }
+
     public static void main(String[] args) {
         String name1 = new String("Jatin Mittal");
         String name2 = new String("Jatin Mittal");
@@ -24,6 +30,7 @@ public class EqualOverride {
 
         System.out.println(name1.equals(name2));
         System.out.println(a.equals(b));
+
 
     }
 }
