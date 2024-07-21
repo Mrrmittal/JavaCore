@@ -31,7 +31,6 @@ public class DefineInnerClasses {
     }
 
     public static void main(String[] args) {
-
         DefineInnerClasses.MyInner obj  = new DefineInnerClasses(). new MyInner();
         obj.print();
     }
