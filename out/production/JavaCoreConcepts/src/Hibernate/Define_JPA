@@ -1,0 +1,5 @@
+Que: What is JPA?
+Sol: JPA is basically Stand for JAVA Persistence API or Interface that's set Standardization for ORM Tools like
+     (Hibernate, Apache Open JPA ).
+     So, Basically JPA allows to map relational data to the Java Objects and allow to persist and access object,
+     class and database.

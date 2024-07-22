@@ -1,0 +1,7 @@
+
+Que: What is Hibernate?
+Sol: Hibernate is Java based persistence Framework and a ORM  (Object Relational Mapping )Tool that's helps to convert
+     POJO objects in the Relational table by automatically.
+
+     So, There is no need to write lines of JDBC Configurations, Jar files and SQL query and more. Therefore, it save a
+     lot of time for developer and they can only focus on the Development.

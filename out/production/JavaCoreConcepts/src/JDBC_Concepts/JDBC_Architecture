@@ -1,0 +1,24 @@
+Que: What is an Architecture of JDBC?
+Sol:
+                                                 Java Application
+
+                                                 JDBC API
+
+                                                 JDBC Driver Manager
+
+ JDBC Driver Software                           JDBC Driver Software                        JDBC Driver Software
+ For Oracle                                     For MySQL                                   For PostgresSQL
+
+ Oracle DataBase                                MySQL DataBase                              PostgresSQL Database
+
+
+# 1. Java Application
+# 2. JDBC API            : JDBC an API help to connects the Java Application with the DataBase.
+# 3. JDBC Driver Manager : Driver Manager is the Class that present in the in the java.mysql package. So, basically
+                           the Driver Manager is responsible to the connect the Java Application to database with the
+                           help of Drivers Software.
+# 4. JDBC Driver Software: JDBC Driver Software working like as a translator. That's helps to convert Java Application
+                           calls to the DataBase Specific call and vice verse.
+                           We can not interact with the database with Driver Software.
+
+# 5. DataBase

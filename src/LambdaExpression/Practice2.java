@@ -2,7 +2,15 @@ package src.LambdaExpression;
 
 @FunctionalInterface
 interface Practice2 {
-    public void sayHello();
+    void sayHello();
+
+    default void print(String name){
+        System.out.println(name);
+    }
+
+    static int sum(int a, int b){
+        return a+b;
+    }
 }
 
 

@@ -1,0 +1,9 @@
+Que: What is JDBC?
+Sol: JDBC stands for Java Database Connectivity. Basically JDBC is an API that helps to established connection between
+     the Java Applications to the Database.
+     The Classes and Interface of JDBC allows the application to sent request made by user to the specific database.
+
+   # Java Application are there is Database independent that means we can connect any of the database(MySQL, Oracle,
+     PostgresSQL). But there is a Driver Software that are the main component to connect Application to the database.
+   * So, the Driver Software is the Database dependent. We need different different driver for the different different
+     database.

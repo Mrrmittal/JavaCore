@@ -4,13 +4,15 @@ class Base{
 
     private void fun(){
         System.out.println("base class fun");
-        class InnerClass{
-            public static void main(String[] args) {
-                Base obj = new Base();
-            obj.fun();
-            }
 
-        }
+    }
+
+    public static void main(String[] args) {
+        Base obj = new Base();
+        obj.fun();
+    }
+    class InnerClass{
+
     }
 }
 

@@ -1,0 +1,11 @@
+Que: Which JDBC Driver should be used?
+Sol: Case 1 : If the Organisation are using only the Single Database like MySQL.
+              So, In that case Type-4 (Thin Driver) driver is Highly Recommended because of Fast and directly connection with the
+              Database.
+
+     Case 2 : If the organisation different activities associated with the different different Databases. So at that we
+              use Type-3 (Middleware Driver) Driver. Because it is the Database dependent and High speed with Middleware layer.
+
+     Case 3 : If both Type-3 and Type-4 Driver isn't available. Then we should go for Type-2 Driver (Native Driver).
+
+     Case 4 : If all of 3 Driver are isn't available. Then the only one option is left that is Type-1 (ODBC Driver).

@@ -1,0 +1,9 @@
+Que: Imp. annotation used in Hibernate?
+Sol: 1. javax.persistence.Entity (@Entity): Class level annotation to create an entity.
+     2. javax.persistence.Table (@Table): Class level annotation to create Table name as given.
+     3. javax.persistence.Id (@Id): Fields level annotation to create field as as a Primary Key.
+     4. javax.persistence.EmbeddedId (@EmbeddedId): Field level annotation to create an Composite Primary Key.
+     5. javax.persistence.Column: (@Column) is used for defining the column name in the database table.
+     6. javax.persistence.GeneratedValue: “@GeneratedValue” is used for defining the strategy used for primary key
+                                           generation. This annotation is used along with
+                                           javax.persistence.GenerationType enum.

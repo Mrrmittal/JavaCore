@@ -13,13 +13,15 @@ public class EnumAndEnumSet {
     public static void main(String[] args) {
 
 
-        enum status {
-            Active, Running, Paused
-        }
+
 
 //    How to get all variable of enum
 
         EnumSet enumSet = EnumSet.allOf(status.class);
         System.out.println(enumSet);
+    }
+
+    enum status {
+        Active, Running, Paused
     }
 }
