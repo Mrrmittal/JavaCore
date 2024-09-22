@@ -9,7 +9,7 @@ public class DefineThreads {
 
      # Why need of Multiple threads needs?
       Let suppose we have 3 different-different independent task in our application. But we have only single threaded
-      system. so, while the first line of code is not respond or execute until another line of will not be execute
+      system. so, while the first line of code is not respond or execute until another line of will not be executes
       because our single threaded busy with first program. Therefore, we need multiple Thread in programming. To
       make execution fast.
 

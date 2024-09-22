@@ -41,9 +41,10 @@ public class Synchronization implements Runnable {
 
 class BookingApplication{
         int total_tickets = 10;
-        String name;
-        int tickets;
-        public void bookTickets(int tickets, String name){
+//        String name;
+//        int tickets;
+        public synchronized void bookTickets(int tickets, String name){
+
             if(total_tickets >= tickets  ){
                 System.out.println(name +" Seats Confirmed!! ThankYou for showing Interest");
                 int left_tickets = (total_tickets - tickets);
