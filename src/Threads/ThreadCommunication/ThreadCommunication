@@ -1,0 +1,24 @@
+Que: What is Thread Communication ? and why it is so important?
+Sol: Thread Communication is basically helpful to prevent CPU extra working and free CPU on time without any time and
+     Memory wastage. Thread Communication is very necessary and can be achieve by using basic 3 object class methods
+     wait(), notify(), notifyAll(). And these methods can only be used into the intrinsic locks(synchronized keyword).
+
+     So, the basically thread communication only important for save the time and working of the CPU.
+
+
+     For eg: There is two resources like consumer and producer. So, consumer thread always check to produce if its they
+             produce the resources or not and if yes consumer will consume it. So, at that time without implementing
+             Thread communication. consumer thread check time to time. But while using of thread communication, the
+             producer notify() the consumer to consume the things.
+
+
+
+             By ChatGPT
+
+     Thread Communication is essential for optimizing CPU usage by preventing unnecessary work and freeing up the CPU
+     when it's not needed. It helps avoid wasted CPU time and memory by allowing threads to coordinate their actions.
+     This communication can be achieved using three key methods from the Object class: wait(), notify(), and notifyAll().
+     These methods are used in synchronized blocks or methods (i.e., intrinsic locks) to manage thread interactions.
+
+     In essence, thread communication is important for efficient CPU usage by allowing threads to wait for specific
+     conditions, rather than continuously checking, which could otherwise lead to wasted CPU cycles.

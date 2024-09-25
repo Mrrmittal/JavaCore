@@ -1,0 +1,16 @@
+Que: What is Locks? Types of Locks and their benefits?
+Sol: Locks: So basically locks are help to provide synchronicity to the program and help to prevent the data misleading
+     false data reading and writing at the time of shared resources.
+
+       for eg: SBI Bank Account have : 100rs. MR.X and Mrs.X both want to withdraw amount of 100 at the same time.
+               therefore, both reads same 100rs available at the bank account. but both of them can't withdraw.
+               here are the concept of locks help to provide a lock to one thread only at the same time while both are
+               working on the shared resources.
+
+
+
+      Types: These are basically two types of locks:
+             1.) Intrinsic : By using Synchronized keyword.
+             2.) Explicit : By using locks by explicitly.
+
+
